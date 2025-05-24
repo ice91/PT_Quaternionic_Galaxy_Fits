@@ -1,5 +1,6 @@
-numpy==1.23.5
-emcee==3.1.4
-matplotlib==3.7.1
+numpy==1.24.4
 pandas==2.0.3
 scipy==1.10.1
+matplotlib==3.7.1
+emcee==3.1.4
+tqdm==4.66.4          # 進度列 (取代 Colab progress bar)
