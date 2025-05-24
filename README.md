@@ -16,3 +16,9 @@ The required Python libraries are listed in `requirements.txt`. You can install 
 
 ```bash
 pip install -r requirements.txt
+
+python -m src.fit_rotation_curves \
+    --data-path dataset/sparc_processed_nohead.txt \
+    --outdir results/ \
+    --nwalkers 2 \
+    --steps 10
